@@ -334,6 +334,11 @@ img{
   transform: scale(1.1);
 }
 
+.modal-content iframe {
+  margin: 0 auto;
+  display: block;
+}
+
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;

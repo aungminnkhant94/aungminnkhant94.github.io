@@ -22,19 +22,31 @@
     <body>
         <!--===== HEADER =====-->
         <header class="l-header">
-            <nav class="nav bd-grid">
+            <nav class="nav bd-grid"id="nav">
                 <div>
-                    <a href="#" class="nav__logo">AUNG MINN KHANT</a>
+                    <div class="theme-switch-wrapper">
+                        <span id="toggle-icon">
+                            <span class="toggle-text">Light Mode</span>
+                            <i class="fas fa-sun"></i>
+                        </span>
+                        <label class="theme-switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                        <!--<li class="nav__item"><div class="theme-dots"><i class="fas fa-moon"></i></div></li>-->
+                        <li class="nav_item">
+                            
+                        </li>
+                        
                     </ul>
                 </div>
 
@@ -90,7 +102,7 @@
                         <img src="assets/img/passport.jpeg" alt="">
                     </div>
                     
-                    <div>
+                    <div class="about__me">
                         <h2 class="about__subtitle">I'm AUNG MINN KHANT</h2>
                         <p class="about__text">Hard-working web developer with a full enthusiasm for creating elegant solutions in the given time.Worked as a freelance Developer for two years.Passionate about software architecture and machine learning.Working on small scale web development and always looking for new clients!
                             <a download="" href="assets/resume/amk'resume.pdf" class="cv-button">
@@ -182,7 +194,7 @@
                           </h5>
                           <p class="card-text">Simple Employee Management System.Major permissions are controlled by Admin. You can approve or denied your employee leaves.</p>
                           <h6 class="card-subtitle mb-1">Technogies Used :</h6>
-                          <div class="container mb-2">
+                          <div class="container mb-2 tech">
                             <i class="fab fa-laravel skills__icon "></i> <i class="fab fa-bootstrap skills__icon "></i> 
                           </div>
                           <h6 class="card-subtitle">View Source Code :<a href="https://github.com/aungminnkhant94/employee-management-sys"> <i class="fab fa-github"></i></a></h6>
@@ -199,7 +211,7 @@
                           </h5>
                           <p class="card-text">Inventory Management using Laravel,Vue.Js and restful API.</p>
                           <h6 class="card-subtitle mb-1">Technogies Used :</h6>
-                          <div class="container mb-2">
+                          <div class="container mb-2 tech">
                            
                           </div>
                           <h6 class="card-subtitle">View Source Code :</h6>
@@ -216,7 +228,7 @@
                           </h5>
                           <p class="card-text">A system between waiter and chef .</p>
                           <h6 class="card-subtitle mb-1">Technogies Used :</h6>
-                          <div class="container mb-2">
+                          <div class="container mb-2 tech">
                             
                           </div>
                           <h6 class="card-subtitle">View Source Code :</h6>
@@ -234,7 +246,7 @@
                               Small online market using PHP and JavaScript . You can add to cart or remove products from cart . All the products can be found or listed with their own categories. There is also admin dashboard from adminLTE .
                           </p>
                           <h6 class="card-subtitle mb-1">Technogies Used :</h6>
-                          <div class="container mb-2">
+                          <div class="container mb-2 tech">
                             <i class="fab fa-php skills__icon"></i> <i class='bx bxl-javascript skills__icon' ></i> 
                           </div>
                           <h6 class="card-subtitle">View Source Code :<a href="https://github.com/aungminnkhant94/shopping_p"> <i class="fab fa-github"></i></a></h6>
